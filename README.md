@@ -7,16 +7,20 @@
 
 * [Description](#Description)
 * [Install](#Install)
-* [Howto](#Howto)
+* [Usage](#Usage)
 * [Credits](#credits)
 
 ## <a name='Description'>🐱 Description</a>
 FTP server and client more or less rfc compliant
 
 ## <a name='Install'>🐨 Install</a>
-firstly, run 'npm install' to install dependencies
-secondly, run 'npm build' in client or server directory to build the project and get the production code
-thirdly, run 'npm start' in client or server directory to start client or server
+* run 'npm install' in client and server directory to install dependencies
+* run 'npm build' in server directory to build server
+* run 'npm build' in client directory to build client
+
+## <a name='Usage'>🦄 Usage</a>
+
+
 
 
 
