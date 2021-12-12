@@ -15,10 +15,16 @@ FTP server and client more or less rfc compliant
 
 ## <a name='Install'>🐨 Install</a>
 * run 'npm install' in client and server directory to install dependencies
-* run 'npm build' in server directory to build server
-* run 'npm build' in client directory to build client
+* run 'npm build' in server directory to build server the builded source code is in server/.dist/
+* run 'npm build' in client directory to build client the builded source code is in  client/.dist/
 
 ## <a name='Usage'>🦄 Usage</a>
+* go in server/.dist and run 'node main.js [port]' then the server will run
+* go in client/.dist and run 'node main.js [host] [port]' then the client will run
+  
+## <a name='credits'>🐵 Credits</a>
+Realize with heart: by kingm77 as part of a project at Efrei in ** Paris **.
+
 
 
 
