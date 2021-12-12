@@ -19,8 +19,23 @@ FTP server and client more or less rfc compliant
 * run 'npm build' in client directory to build client the builded source code is in  client/.dist/
 
 ## <a name='Usage'>🦄 Usage</a>
-* go in server/.dist and run 'node main.js [port]' then the server will run
-* go in client/.dist and run 'node main.js [host] [port]' then the client will run
+* go in server/.dist and run `node main.js <port>` then the server will run
+* go in client/.dist and run `node main.js <host> <port>` then the client will run
+
+#### Commands
+
+The client handle the following commands:
+
+* `USER <username>`: check if the user exist
+* `PASS <password>`: authenticate the user with a password
+* `LIST`: list the current directory of the server
+* `CWD <directory>`: change the current directory of the server
+* `RETR <filename>`: transfer a copy of the file _FILE_ from the server to the client
+* `STOR <filename>`: transfer a copy of the file _FILE_ from the client to the server
+* `PWD`: display the name of the current directory of the server
+* `HELP`: send helpful information to the client
+* `QUIT`: close the connection and stop the program
+* `PORT <ip> <port>`: create a data connection with server
   
 ## <a name='credits'>🐵 Credits</a>
 Realize with heart: by kingm77 as part of a project at Efrei in ** Paris **.
