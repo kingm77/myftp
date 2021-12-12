@@ -10,7 +10,7 @@ export const actionOnData = {
         const [file, messageData] = data
         const filename = path.basename(file)
         const fileData = Buffer.from(messageData, 'base64').toString()
-        const filePath = path.join(process.cwd(),'fileDownloaded', filename)
+        const filePath = path.join(process.cwd(), filename)
         writeFileSync(filePath, fileData)
     },
     "STOR":function(socket, data){

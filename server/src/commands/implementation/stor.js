@@ -19,6 +19,6 @@ export function stor(socket, args){
             const filePath = path.join(socket.currentDir, filename)
             writeFileSync(filePath, fileData)
         })
-        socket.write(messages[226])
+        return messages[226]
     })
 }
