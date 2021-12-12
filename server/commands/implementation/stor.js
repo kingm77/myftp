@@ -16,7 +16,7 @@ export function stor(socket, args){
             const [file, messageData] = message.split(" ")
             const filename = path.basename(file)
             const fileData = Buffer.from(messageData, 'base64').toString()
-            const filePath = path.join(process.cwd(),'fileUploaded', filename)
+            const filePath = path.join(socket.currentDir, filename)
             writeFileSync(filePath, fileData)
         })
         socket.write(messages[226])
