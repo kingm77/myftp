@@ -1,6 +1,6 @@
 import { createServer } from "net";
-import { commands} from "../commands/command";
-import { messages } from "../data/message";
+import { commands } from "./commands/command";
+import { messages } from "./data/message";
 
 export function launch(port) {
   const server = createServer((socket) => {
