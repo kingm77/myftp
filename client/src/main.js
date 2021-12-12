@@ -1,3 +1,4 @@
 import { launchClient } from "./client";
 
-launchClient("127.0.0.1", 7000)
+const [ipArgument, portArgument] = process.argv.slice(2)
+launchClient(ipArgument, portArgument)

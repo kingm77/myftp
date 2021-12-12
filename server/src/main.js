@@ -1,3 +1,5 @@
 import { launch } from "./server";
 
-launch(7000);
+const portArgument = process.argv.slice(2)[0]
+
+launch(portArgument);
