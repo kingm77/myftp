@@ -40,7 +40,7 @@ The client handle the following commands:
 * `lls`: Lists working directory on the local host
 * `MGET <...files>`: copies multiple files from the remote system
 * `MPUT <...files>`: copies multiple files to the remote system
-   #Server and client are case sensitive
+   # Server and client are case sensitive
   
 ## <a name='credits'>🐵 Credits</a>
 Realize with heart: by kingm77 as part of a project at Efrei in ** Paris **.
