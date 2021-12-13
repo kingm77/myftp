@@ -35,7 +35,11 @@ The client handle the following commands:
 * `PWD`: display the name of the current directory of the server
 * `HELP`: send helpful information to the client
 * `QUIT`: close the connection and stop the program
-* `PORT <ip> <port>`: create a data connection with server
+* `lcd <directory>`: Change the current working directory on the local host
+* `lpwd`: Display the name of the current working directory on the local host
+* `lls`: Lists working directory on the local host
+* `mget <...files>`: copies multiple files from the remote system
+* `mput <...files>`: copies multiple files to the remote system
   
 ## <a name='credits'>🐵 Credits</a>
 Realize with heart: by kingm77 as part of a project at Efrei in ** Paris **.
