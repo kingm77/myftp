@@ -1,6 +1,8 @@
 import { cwd } from "./implementation/cwd"
 import { help } from "./implementation/help"
 import { list } from "./implementation/list"
+import { mget } from "./implementation/mget"
+import { mput } from "./implementation/mput"
 import { pass } from "./implementation/pass"
 import { port } from "./implementation/port"
 import { pwd } from "./implementation/pwd"
@@ -19,5 +21,7 @@ export const commands = {
     "QUIT": {action: quit, description: "Close the connection and stop the program"},
     "PWD":  {action: pwd, description: "Display the name of the current directory of the server"},
     "PORT": {action: port, description: "Specifies an address and port to which the server should connect"},
+    "MGET": {action: mget, description: "Specifies an address and port to which the server should connect"},
+    "MPUT": {action: mput, description: "Specifies an address and port to which the server should connect"},
     "HELP": {action: help, description: "send helpful information to the client"} 
 }

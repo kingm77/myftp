@@ -5,7 +5,8 @@ import { messages } from "./data/message";
 export function launch(port) {
   const server = createServer((socket) => {
     socket.on("end", () => {
-      console.log(`session of user ${socket.currentUser.username} is ended`)
+      if(socket.currentUser != undefined)
+        console.log(`session of user ${socket.currentUser.username} is ended`)
     })
     
     socket.on("data", (data) => {

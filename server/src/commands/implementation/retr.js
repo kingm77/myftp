@@ -5,7 +5,7 @@ import path from "path";
 
 export function retr(socket, args){
     return safeTemplate(socket, () => {
-        const file = args[0]
+        const file = path.basename(args[0])
         const filePath = path.join(socket.currentDir, file)
         
         if(existsSync(filePath) && statSync(filePath).isFile()){
