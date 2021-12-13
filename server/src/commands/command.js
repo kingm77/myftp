@@ -21,7 +21,7 @@ export const commands = {
     "QUIT": {action: quit, description: "Close the connection and stop the program"},
     "PWD":  {action: pwd, description: "Display the name of the current directory of the server"},
     "PORT": {action: port, description: "Specifies an address and port to which the server should connect"},
-    "MGET": {action: mget, description: "Specifies an address and port to which the server should connect"},
-    "MPUT": {action: mput, description: "Specifies an address and port to which the server should connect"},
+    "MGET": {action: mget, description: "copies multiple files from the remote system"},
+    "MPUT": {action: mput, description: "copies multiple files from to the remote system"},
     "HELP": {action: help, description: "send helpful information to the client"} 
 }
