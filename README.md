@@ -1,5 +1,5 @@
 <p with=200 align="center">
-  <img src="https://cdn-icons.flaticon.com/png/512/1183/premium/1183701.png?token=exp=1639330988~hmac=ec4475869df0e10993ff66de53b7c8fa" />
+  <img src="https://hostingeserver.it/wp-content/uploads/2021/01/ftp.png" />
 </p>
 
 
